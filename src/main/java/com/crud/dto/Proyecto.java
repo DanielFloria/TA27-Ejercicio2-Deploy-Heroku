@@ -20,7 +20,6 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Proyecto {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private String id;
 	@Column(name = "nombre")
 	private String nombre;
